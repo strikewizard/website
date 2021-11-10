@@ -1,0 +1,80 @@
+<head>
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+<style>
+
+* {
+    background-color: #292929;
+}
+
+a:link {
+    color:#997599;
+}
+
+a:visited {
+    color:#8d5351;
+}
+
+a:hover{
+    color:#626262;
+}
+
+body {
+	background-repeat: repeat;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+text-shadow: 2px 2px #2a2a2a;
+    color: #8f8f8f;
+    text-align: center;
+    font-size: 32px;
+}
+
+p {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+text-shadow: 2px 2px #2a2a2a;
+    color: #8f8f8f;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 32px;
+}
+
+h1 {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+text-shadow: 2px 2px #2a2a2a;
+    color: #6b83ac;
+    font-size: 64px;
+    text-align: center;
+}
+
+h2 {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+text-shadow: 2px 2px #2a2a2a;
+    color: #9e7a5a;
+    font-size: 32px;
+    text-align: center;
+}
+
+h3 {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+text-shadow: 2px 2px #2a2a2a;
+    font-size: 32px;
+    text-align: center;
+	animation: color-change 2s 3;
+}
+
+@keyframes color-change {
+	0% { color: red; }
+	50% { color: blue; }
+	100% { color: red; }
+}
+
+li:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+#footer {
+	bottom: 0;
+	text-align: center;
+}
+
+</style>
+</head>

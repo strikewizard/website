@@ -1,0 +1,18 @@
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><title>Sixtyfour's Website</title><link type="text/css" rel="stylesheet" href="css/sixtyfour.css" /></head><script type="text/javascript">var totalCount = 123;
+function changeIt() {
+    var num = totalCount % 1 ? totalCount * Math.random() : Math.floor(totalCount * Math.random());
+    __PS_MV_REG = [];
+    return document.body.background = 'tile/' + num + '.gif';
+};
+function fortuneFace() {
+    var num = 16 % 1 ? 16 * Math.random() : Math.floor(16 * Math.random());
+    document.face.src = 'faces/' + num + '.png';
+    __PS_MV_REG = [];
+    return true;
+};
+function fortune() {
+    var fortunes = ['EXCELLENT', 'CRINGE', 'BORING', 'POGGERS', 'BASED'];
+    var num = 5 % 1 ? 5 * Math.random() : Math.floor(5 * Math.random());
+    __PS_MV_REG = [];
+    return fortunes[num];
+};</script><body><script type="text/javascript">changeIt();</script><div id="header"><img src="img/yoshika.png" class="logo" /></div><h1>Sixtyfour's Website</h1><p><i>Now with 100% more eyerape.</i></p><p><a href="about.htm"><b>About</b></a><br /></p><p><a href="blog.htm"><b>Blog</b></a><br /></p><h2>Today's Fortune: </h2><h3><script type="text/javascript">javascript:document.write(fortune())</script></h3><img name="face" class="logo" /><script type="text/javascript">javascript:fortuneFace()</script><br /><br /><div id="footer"><div id="row"><img src="img/warn.png" height="64" class="logo" /><img src="img/sink.png" height="64" class="logo" /><img src="img/copyleft.svg" height="64" class="logo" /></div></div></body></html>
