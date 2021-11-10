@@ -1,4 +1,5 @@
 #+TITLE:My Personal Website
 - Made with Parenscript and CL-WHO
 - Provides new background image on every refresh
+- Visit the site [[https://sixtyfour.ga][here]]
 [[file:img/erica.jpg]]
