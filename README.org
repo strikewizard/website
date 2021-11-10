@@ -1,0 +1,4 @@
+#+TITLE:My Personal Website
+- Made with Parenscript and CL-WHO
+- Provides new background image on every refresh
+[[file:img/erica.jpg]]
