@@ -29,6 +29,8 @@
 			(:head
 			 (:meta :http-equiv "Content-Type"
 					:content "text/html;charset=utf-8")
+			 (:link :rel "icon"
+					:href "img/lisp.png")
 			 (:title ,title)
 			 (:link :type "text/css"
 					:rel "stylesheet"
