@@ -56,15 +56,31 @@ text-shadow: 2px 2px #2a2a2a;
 h3 {
 font-family: 'M PLUS Rounded 1c', sans-serif;
 text-shadow: 2px 2px #2a2a2a;
+color: red;
     font-size: 32px;
     text-align: center;
-	animation: color-change 2s 3;
+	animation: color-change 2s 20;
 }
 
 @keyframes color-change {
-	0% { color: red; }
-	50% { color: blue; }
-	100% { color: red; }
+	0% { color: blue; }
+	30% { color: red; }
+	60% { color: blue; }
+}
+
+h4 {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+text-shadow: 2px 2px #2a2a2a;
+color: yellow;
+    font-size: 24px;
+    text-align: center;
+	animation: color-change-2 2s 20;
+}
+
+@keyframes color-change-2 {
+	0% { color: yellow; }
+	40% { color: purple; }
+	80% { color: yellow; }
 }
 
 li:not(:last-child) {
