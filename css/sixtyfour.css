@@ -1,5 +1,5 @@
 <head>
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
 <style>
 
 * {
@@ -20,17 +20,17 @@ a:hover{
 
 body {
 	background-repeat: repeat;
-font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'M PLUS 1', sans-serif;
 text-shadow: 2px 2px #2a2a2a;
-    color: #8f8f8f;
+    color: #ffffa5;
     text-align: center;
     font-size: 32px;
 }
 
 p {
-font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'M PLUS 1', sans-serif;
 text-shadow: 2px 2px #2a2a2a;
-    color: #8f8f8f;
+    color: #ffffa5;
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
@@ -38,7 +38,7 @@ text-shadow: 2px 2px #2a2a2a;
 }
 
 h1 {
-font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'M PLUS 1', sans-serif;
 text-shadow: 2px 2px #2a2a2a;
     color: #6b83ac;
     font-size: 64px;
@@ -46,7 +46,7 @@ text-shadow: 2px 2px #2a2a2a;
 }
 
 h2 {
-font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'M PLUS 1', sans-serif;
 text-shadow: 2px 2px #2a2a2a;
     color: #9e7a5a;
     font-size: 32px;
@@ -54,7 +54,7 @@ text-shadow: 2px 2px #2a2a2a;
 }
 
 h3 {
-font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'M PLUS 1', sans-serif;
 text-shadow: 2px 2px #2a2a2a;
 color: red;
     font-size: 32px;
@@ -69,7 +69,7 @@ color: red;
 }
 
 h4 {
-font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'M PLUS 1', sans-serif;
 text-shadow: 2px 2px #2a2a2a;
 color: yellow;
     font-size: 24px;
