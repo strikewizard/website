@@ -87,6 +87,13 @@ li:not(:last-child) {
 	margin-bottom: 5px;
 }
 
+.badge {
+  margin: 5px;
+  border-style: outset;
+  border-width: 2px;
+  border-color: black;
+}
+
 #footer {
 	bottom: 0;
 	text-align: center;

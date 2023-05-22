@@ -5,6 +5,8 @@
 
 ;; GPLv2 only
 
+(ql:quickload '(cl-who parenscript))
+
 (defpackage :sixtyfour
   (:use :cl :cl-who :parenscript))
 
@@ -56,14 +58,33 @@
 			 (:div :id "footer"
 				   (:div :id "row"
 						 (:img :src "img/warn.png"
-							   :height "64"
-							   :class "logo")
+							   :height "31"
+							   :class "badge")
 						 (:img :src "img/sink.png"
-							   :height "64"
-							   :class "logo")
+							   :height "31"
+									 :class "badge")
+						 (:img :src "img/gnubanner.gif"
+									 :height "31"
+									 :class "badge")
+						 (:img :src "img/js.gif"
+									 :height "31"
+									 :class "badge")
+						 (:img :src "img/konata.gif"
+									 :height "31"
+									 :class "badge"))
+				   (:div :id "row"
+						 (:img :src "img/miku.gif"
+									 :height "31"
+									 :class "badge")
+						 (:img :src "img/pothead.gif"
+									 :height "31"
+									 :class "badge")
+						 (:img :src "img/rorikon.gif"
+									 :height "31"
+									 :class "badge")
 						 (:img :src "img/copyleft.svg"
-							   :height "64"
-							   :class "logo")))))))
+							   :height "31"
+							   :class "badge")))))))
 
 (defmacro standard-page ((&key title) (&key links) &body body)
   "Creates page with links at the bottom."
