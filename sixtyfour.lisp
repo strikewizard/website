@@ -56,6 +56,9 @@
 			 ,@body
 			 (:br)
 			 (:div :id "footer"
+             (:img :src "https://count.getloli.com/get/@:64?theme=gelbooru"
+                   :width "400"
+                   :style "padding-bottom: 20px")
 				   (:div :id "row"
 						 (:img :src "img/warn.png"
 							   :height "31"
